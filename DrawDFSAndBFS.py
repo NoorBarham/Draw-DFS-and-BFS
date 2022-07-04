@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 # -------------------------------------------------------
 global p
 p=[]
-
+ 
 def dfs(graph, start, goal):
     close, open, temp = [], [], []
     open.append([start])
